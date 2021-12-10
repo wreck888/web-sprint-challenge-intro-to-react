@@ -19,7 +19,7 @@ border-radius: 8px;
 justify-content: center;
 flex-wrap: wrap;
 width: 100%;
-background-image: url('https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png');
+background-image: url('https://images.pexels.com/photos/6793711/pexels-photo-6793711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 color: #FFE81F;
 border: 2px solid #FFE81F;
 margin-top: 2%;
@@ -31,16 +31,18 @@ text-align: left;
 align-content: center;
 Font-family: fantasy;
 letter-spacing: .5rem;
-
+color: #FFE81F;
 
 `
 
 const StyledButton = styled.button`
-background-image: url('https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png');
+background-image: url('https://cdn.pixabay.com/photo/2017/08/09/20/42/abstract-2615764_960_720.jpg');
 border: 2px solid #FFE81F;
 border-radius: 8px;
 color: #FFE81F;
 height: 5rem;
+font-family: fantasy;
+background-size: cover;
 `
 const StyledPara = styled.p`
 font-weight: bold;
@@ -77,7 +79,7 @@ const Character = (props) => {
             <StyledButton onClick={onClick}>Character Info</StyledButton>
             <>
             {showText ? <Text /> : null}
-                        </>
+            </>
         </StyledDiv>
   )
 }

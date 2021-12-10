@@ -32,11 +32,9 @@ const App = () => {
   return (
     <StyledDiv className="App">
       <h1 className="Header">Star Wars Characters</h1>
-      
         {
         characters.map((person, index ) => (
         <Character key ={index} person = {person}/> ))
-
         }
         
     </StyledDiv>
